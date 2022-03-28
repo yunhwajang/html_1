@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>빙고게임</title>
+    <style>
+        table, td 
+        {
+            border-widt: 2px;
+            border-color: #000000;
+            border-style: solid;
+        }
+
+        td
+        {
+                width:100px;
+                height:100px;
+                text-align: center;
+                vertical-align: middle;
+                font-size:1.5em;
+        }
+        #one
+        {
+            color:aliceblue;
+            background-color: red;
+        }
+        .radius  
+        {
+            color:blueviolet;
+            background-color: black;
+        }
+        .top-left
+        {
+            font-size:3em;
+        }
+    </style>
+</head>
+<body>
+    <h3><a href="../index.html">상위폴더로 돌아가기</a></h3>
+    <table>
+        <tr>
+            <td class="radius top-left">21</td>   <!--클래스 이름 중복으로 사용 가능-->
+            <td style="background-color:red">15</td>
+            <td style="background-color:yellow">2</td>
+            <td style="background-color:yellow">4</td>
+            <td class="radius">16</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td style="background-color:RED">17</td>
+            <td style="background-color:yellow">5</td>
+            <td>20</td>
+            <td>18</td>
+        </tr>
+        <tr>
+            <td style="background-color:yellow">22</td>
+            <td style="background-color:RED">19</td>
+            <td style="background-color:yellow">1</td>
+            <td >23</td>
+            <td style="background-color:yellow">25</td>
+        </tr>
+        <tr>
+            <td style="background-color:blue">6</td>
+            <td style="background-color:RED">7</td>
+            <td style="background-color:blue">13</td>
+            <td style="background-color:blue">24</td>
+            <td style="background-color:blue">14</td>
+        </tr>
+        <tr>
+            <td class="radius">10</td>
+            <td style="background-color:RED">11</td>
+            <td style="background-color:yellow">9</td>
+            <td id="one">12</td>
+            <td class="radius">8</td>
+        </tr>
+    </table>
+</body>
+</html>

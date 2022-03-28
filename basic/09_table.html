@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>테이블 만들기</title>
+</head>
+<body>
+    <h3><a href="../index.html">상위폴더로 돌아가기</a></h3>
+
+<h1>테이블 태그는 자주 사용되지만 사용시 유의할 점이 있다</h1>
+<h3>테이블 태그는 레이아웃 용도로 사용되면 안된다!</h3>
+<ul>
+    <li>테이블이라는 모양을 만들 때 렌더링을 스택방식으로 쌓아 올리기 때문</li>
+    <li>태그 위에 태그를 쌓고 그 위에 태그를 또 쌓아서 위에서 보았을 때 모양이 그리드 형식처럼 보여지는 방식을 사용하는 것</li>
+</ul>
+
+<table border="1">  <!--볼더로 선을 만듬-->
+ <thead>
+     <tr>
+         <th>1</th>
+         <th>2</th>
+         <th>3</th>
+         <td>4</td>
+     </tr>
+ </thead>
+<tbody>
+    <tr>
+        <td>5</td>
+        <td colspan="2" rowspan="2">6</td>
+        
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>9</td>
+        
+        
+        <td rowspan="2">12</td> <!--12,16 통합이 안됨..-->
+    </tr>
+</tbody>
+<tfoot>
+    <tr>
+        <td>13</td>
+        <td>14</td>
+        <td>15</td>
+      
+    </tr>
+</tfoot>
+</table>
+
+    
+</body>
+</html>

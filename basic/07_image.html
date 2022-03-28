@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3><a href="../index.html">상위폴더로 돌아가기</a></h3>
+    <h1>이미지 태그는 lnline속성을 갖는다</h1>
+    <!--이미지의 사이즈 속성: 숫자 => pixel , 숫자% : 브라우저 크기 비율-->
+    <!-- 근데 아래 두 줄 처럼 잘 하진 않음. 이런 스타일링 부분은 css로 함. 이렇게 태그 안쪽에 하지 않고 별도에 파일에 작성함. 가독성 떨어짐  -->
+    <img src="../images/김희진.jpg" width="50" height="50">
+    <img src="../images/김희진.jpg" width="50%" height="50%" title="김희진 사진"> 
+    <p></p>
+
+    <a href="https://gall.dcinside.com/mgallery/board/lists/?id=khj4">
+    <p>
+     <img src="https://search.pstatic.net/sunny/?src=https%3A%2F%2Fimg.theqoo.net%2Fimg%2FwrAOH.jpg&type=sc960_832">
+    김희진 화이팅!!
+    </p>
+    </a>    
+
+    <h2>html문서에 사용되는 이미지의 포맷은 jpg(jpeg), png가 대표적</h2>
+    <h4>jpg : 손실압축포맷 : 이미지의 해상도가 손상되어도 용량을 많이 줄 일 수 있어 가장 많이 사용</h4>
+    <h4>png : 무손실 압축 포맷 : 이미지의 해상도 손실을 줄이고 투명배경 이미지를 사용할 필요성이 있을 때, 이미지의 용량이 크지만 화짛이 뛰어남</h4>
+
+    <!-- 이미지의 리소스가 잘못된 정보값을 갖는 경우  -->
+    <img src="../images/김주향.jpg" alt="김주향이었어">
+</body>
+</html>
